@@ -1,0 +1,82 @@
+# Miscellaneous
+app/*.class
+app/*.log
+app/*.pyc
+app/*.swp
+app/.DS_Store
+app/.atom/
+app/.buildlog/
+app/.history
+app/.svn/
+
+# IntelliJ related
+app/*.iml
+app/*.ipr
+app/*.iws
+app/.idea/
+
+# Visual Studio Code related
+app/.vscode/
+
+# Flutter/Dart/Pub related
+app/**/doc/api/
+app/.dart_tool/
+app/.flutter-plugins
+app/.packages
+app/.pub-cache/
+app/.pub/
+app//build/
+
+# Android related
+app/**/android/**/gradle-wrapper.jar
+app/**/android/.gradle
+app/**/android/captures/
+app/**/android/gradlew
+app/**/android/gradlew.bat
+app/**/android/local.properties
+app/**/android/**/GeneratedPluginRegistrant.java
+
+# iOS/XCode related
+app/**/ios/**/*.mode1v3
+app/**/ios/**/*.mode2v3
+app/**/ios/**/*.moved-aside
+app/**/ios/**/*.pbxuser
+app/**/ios/**/*.perspectivev3
+app/**/ios/**/*sync/
+app/**/ios/**/.sconsign.dblite
+app/**/ios/**/.tags*
+app/**/ios/**/.vagrant/
+app/**/ios/**/DerivedData/
+app/**/ios/**/Icon?
+app/**/ios/**/Pods/
+app/**/ios/**/.symlinks/
+app/**/ios/**/profile
+app/**/ios/**/xcuserdata
+app/**/ios/.generated/
+app/**/ios/Flutter/App.framework
+app/**/ios/Flutter/Flutter.framework
+app/**/ios/Flutter/Generated.xcconfig
+app/**/ios/Flutter/app.flx
+app/**/ios/Flutter/app.zip
+app/**/ios/Flutter/flutter_assets/
+app/**/ios/ServiceDefinitions.json
+app/**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Exceptions to above rules.
+!app/**/ios/**/default.mode1v3
+!app/**/ios/**/default.mode2v3
+!app/**/ios/**/default.pbxuser
+!app/**/ios/**/default.perspectivev3
+!app/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+#Backend ignore
+backend/**/.pytest_cache
+backend/venv
+backend/static/*
+backend/.idea
+backend/__pycache__
+backend/model/__pycache__
+
+#IDE ignore
+.idea
+.dart_tool

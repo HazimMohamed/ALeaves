@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package aleaves;
+
+message User {
+	string id = 1;
+
+	string given_name = 2;
+
+	string family_name = 3;
+
+	string email = 4;
+
+	string password = 5;
+
+	repeated string friends = 7;
+}
